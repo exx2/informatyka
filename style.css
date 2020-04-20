@@ -1,0 +1,143 @@
+.box{
+    width: 100%;
+    text-align: center;
+    height: 50vh;
+    background-color: #01FF70;
+    color:#fff;
+    animation: animacja 5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    bottom: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+@keyframes animacja {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+p {
+    /*font-family: 'Oxygen', sans-serif;*/
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    box-shadow: ;
+
+}
+.box__2{
+    color:#FFF;
+    display: flex;
+    justify-content: center;
+    background-color: #0074D9;
+    height: 50vh;
+    align-items: center;
+    animation: animacja2 5s ease-out;
+    width: 100%;
+}
+@keyframes animacja2 {
+    0%{
+        width: 0vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+.about{
+    height: 100vh;
+    width: 100%;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-weight: 800;
+}
+.button__section{
+    width: 20vw;
+    height: 10vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:100px;
+    position: relative;
+}
+.button__section a{
+    font-size: 30px;
+    height: 10vh;
+    line-height: 10vh;
+
+}
+p{
+    display: block;
+}
+.img__fb{
+    position: absolute;
+    animation: animacja__na__img 5s ease-in-out;
+    top: 10%;
+    left: 90%;
+}
+@keyframes animacja__na__img {
+    0%{
+        top: 0%;
+    }
+    50%{
+        top: 10%;
+        left:0;
+    }
+    100%{
+        left: 90%;
+    }
+}
+.img__first{
+    height: 96px;
+    width: 96px;
+}
+.img__ig{
+    position: absolute;
+    left: 90%;
+    top: 80%;
+    animation: animacja3 5s ease-in-out ;
+}
+@keyframes animacja3 {
+    0%{
+        top:70%
+    }
+    50%{
+        left: 0%;
+    }
+    100%{
+        left: 90%;
+    }
+}
+.side__center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.paragraf__first{
+    color: #39CCCC;
+}
+.paragraf__second{
+    color: #F012BE;
+}
+.paragraf__trie{
+    color: #FF4136;
+}
+p{
+    display: block;
+}
+.side__center{
+    margin-top: 200px;
+}
