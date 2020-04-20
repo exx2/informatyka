@@ -154,5 +154,8 @@ p{
 .button__section a{
     font-size: 20px;
 }
+ .about{
+     height:150vh;
+    }
 }
 /*koniec*/
